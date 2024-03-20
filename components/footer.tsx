@@ -27,7 +27,7 @@ export default function Footer() {
                   target="_blank"
                   style={{ color: social.color }}
                 >
-                  {social.icon() || ""}
+                  {social.icon({}) || ""}
                 </Link>
               </div>
             ))}
